@@ -507,15 +507,13 @@ body {
     }
 
     .nav__link--show{
-        --show: block;
-        opacity:1 ;
-        pointer-events: unset;
+       transform: translateX(0);
     }
 
     .nav__close{
         position: absolute;
-        top: 30px;
-        right: 30px;
+        top: 20px;
+        right: 20px;
         width: 30px;
         cursor: pointer;
     }
@@ -675,3 +673,5 @@ body {
         */
     }
 }
+
+
